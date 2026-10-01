@@ -9,7 +9,7 @@ Prerequisites:
 3. Create an app password for your Google account that'll be used as the value for one of your .env variables
 
 Installation & Execution:
-* To install, simply type "https://github.com/RavenTheBird789/Off-The-Broker" in your terminals command line
+* To install, simply type "git clone https://github.com/RavenTheBird789/Off-The-Broker" in your terminals command line
 
 1. After installing, use the command "cd Off-The-Broker" to enter the Off-The-Broker directory
 2. Once in the directory, activate your env with the command "source env/bin/activate"
