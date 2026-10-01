@@ -17,6 +17,8 @@ Installation & Execution:
 
 * To run, simply type "python3 broker.py" in your terminals command line or use the bash alias command to create a shortcut to run the program in your terminal such as "alias broker="python3 broker.py""
 
+![Alt Text](images/1000001090.jpg)
+
 Notes:
 * KeyboardInturrupt (Ctrl + C) can be used to terminate the program easily within the terminal session
 * It is highly recommended to use a burner email/Google account for the sender email input field that'll be stored in the .env text file as the value for the SENDER_EMAIL variable
