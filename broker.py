@@ -155,6 +155,7 @@ def init():
             if len(broker_names) != len(broker_emails):
                 print(red("brokers_names.txt and data_brokers.txt must have the same number of lines."))
                 time.sleep(3)
+                os.system("cls" if os.name == "nt" else "clear")
                 main()
                 return
 
@@ -165,6 +166,7 @@ def init():
             if not batch:
                 print(blue("Every broker on your list has already been emailed."))
                 time.sleep(3)
+                os.system("cls" if os.name == "nt" else "clear")
                 main()
                 return
 
