@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Off The Broker main file
 # CLI tool that automates opt-out requests to databrokers via email
 
