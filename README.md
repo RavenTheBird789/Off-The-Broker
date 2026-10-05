@@ -7,7 +7,7 @@ Requirements:
 1. Ensure the latest version of python in installed in your terminal (python 3.x)
 2. Create an app password for your Google account that'll be used as the value for one of your .env variables
 
-Installation & setup:
+Installation & setup
 
 ```bash
 git clone https://github.com/RavenTheBird789/Off-The-Broker
@@ -17,13 +17,13 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-To run:
+To run
 
 ```bash
 python3 broker.py
 ```
 
-Optional shortcut:
+Optional shortcut
 
 ```bash
 alias broker="python3 broker.py"
