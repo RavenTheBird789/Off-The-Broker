@@ -5,17 +5,29 @@ CLI tool that automates opt-out requests to data brokers via email
 
 Requirements:
 1. Ensure the latest version of python in installed in your terminal (python 3.x)
-2. Ensure you have a virtual env for the required python library (If you don't, one can easily be created by executing the command "python3 -m venv env")
-3. Create an app password for your Google account that'll be used as the value for one of your .env variables
+2. Create an app password for your Google account that'll be used as the value for one of your .env variables
 
 Installation & Execution:
-* To install, simply type "git clone https://github.com/RavenTheBird789/Off-The-Broker" in your terminals command line
 
-1. After installing, use the command "cd Off-The-Broker" to enter the Off-The-Broker directory
-2. Once in the directory, activate your env with the command "source env/bin/activate"
-3. After your env is activated, run the command "pip install -r requirements.txt" to install the required library
+```bash
+git clone https://github.com/RavenTheBird789/Off-The-Broker
+cd Off-The-Broker
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
 
-* To run, simply type "python3 broker.py" in your terminals command line or use the bash alias command to create a shortcut to run the program in your terminal such as "alias broker="python3 broker.py""
+To run:
+
+```bash
+python3 broker.py
+```
+
+Optional shortcut:
+
+```bash
+alias broker="python3 broker.py"
+```
 
 ![Alt Text](images/1000001090.jpg)
 
