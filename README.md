@@ -1,7 +1,7 @@
 # Off The Broker 🥸
 CLI tool that automates opt-out requests to data brokers via email
 
-![Alt text](images/1000001096.jpg)
+![Alt text](images/1000001609.jpg)
 
 Requirements:
 1. Ensure the latest version of python in installed in your terminal (python 3.x)
