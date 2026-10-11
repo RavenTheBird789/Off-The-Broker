@@ -259,7 +259,7 @@ def init():
             print(blue("2. Modify the data sent in your opt-out requests"))
             print(blue("3. Delete all your data"))
             print(blue("4. Exit"))
-            query = input(blue("Please select an option from above (1-4): "))
+            query = input(blue("Please select an option from above (1-4): ")).strip()
             if query == "1":
                 os.system("cls" if os.name == "nt" else "clear")
                 opt_out()
