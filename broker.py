@@ -12,19 +12,15 @@ from dotenv import load_dotenv
 # List of ANSI color codes
 
 def blue(text: str) -> str:
-    # Wrap text in ANSI codes for blue color
     return f"\033[34m{text}\033[0m"
 
 def red(text: str) -> str:
-    # Wrap text in ANSI codes for red color
     return f"\033[31m{text}\033[0m"
 
 def green(text: str) -> str:
-    # Wrap text in ANSI codes for green color
     return f"\033[32m{text}\033[0m"
 
 def bold(text: str) -> str:
-    # Wrap text in ANSI codes for bold
     return f"\033[1m{text}\033[0m"
 
 dash = "-"
