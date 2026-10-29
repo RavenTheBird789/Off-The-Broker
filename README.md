@@ -13,7 +13,7 @@ Installation & setup
 git clone https://github.com/RavenTheBird789/Off-The-Broker
 cd Off-The-Broker
 python3 -m venv env
-source env/bin/activate
+source env/bin/activate # Windows: env\Scripts\activate
 pip install -r requirements.txt
 ```
 
