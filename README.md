@@ -4,7 +4,7 @@ CLI tool that automates opt-out requests to data brokers via email
 ![Alt text](images/1000001640.jpg)
 
 Requirements:
-1. Ensure the latest version of python in installed in your terminal (python 3.x)
+1. Ensure the latest version of python in installed in your terminal (python 3.9+)
 2. Create an app password for your Google account that'll be used as the value for one of your .env variables
 
 Installation & setup
